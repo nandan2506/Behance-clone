@@ -86,7 +86,16 @@ button:hover {
     text-decoration: underline;
     color: rgb(25, 25, 25);
     text-decoration-thickness:.2rem ;
-    text-underline-offset: .8rem;
+    text-underline-offset: 1.25rem;
+}
+
+
+
+
+.underLine {
+    /* text-decoration: none; */
+    border-bottom: .2rem solid rgb(25, 25, 25); /* Fallback for older browsers */
+    padding-bottom: .8rem; /* Adjust the distance */
 }
 
 

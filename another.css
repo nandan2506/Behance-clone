@@ -1,0 +1,321 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(222, 216, 216);
+    border-bottom: 1px solid rgb(222, 216, 216);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+nav a:hover{
+    color: rgb(13, 16, 240);
+    background-color: rgb(134, 164, 222);
+    border-radius: 10%;
+} 
+#hire{
+    text-align: center;
+    margin: 20px 0px;
+}
+#hire h1{
+    font-size: 70px;
+    line-height: .971em;
+    margin-bottom: var(--be-sp-7);
+    margin-top: var(--be-sp-16);
+    text-align: center;
+}
+#hire p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.button-link {
+    margin: 20px;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-link:hover {
+background-color: blue;
+transform: translateY(-2px);
+}
+.cards{
+margin: 20px 50px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.cards div{
+height: 180px;
+width: 22%;
+border: 1px solid black;
+margin: 15px;
+border-radius: 20px;
+color: white;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+align-items: center;
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+font-size: 30px;
+}
+.cards div:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+.whyHire-container{
+border-top: 1px solid rgb(222, 216, 216);
+text-align: center;
+border-bottom: 1px solid rgb(222, 216, 216);
+
+}
+.whyHire div{
+margin-top: 40px;
+margin-left: 70px;
+margin-right: 40%;
+}
+.whyHire h1{
+    padding-left: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.whyHire h6{
+    padding-left: 50px;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 100;
+    text-align: left;
+}
+.whyHire h5{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-left: 80px;
+}
+.whyHire h5+p{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-left: 80px;
+    color: rgb(96, 93, 93);
+    font-weight: 100;
+}
+.whyHire-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.whyHire {
+    flex: 1;
+}
+
+.whyHire-image img {
+    width: 300px;
+    height: auto; 
+    margin-right: 100px;
+}
+.how {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+main{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+.how {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+margin: 20px 0;
+}
+.how div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 300px;
+width: 250px;
+background-color: white;
+margin: 20px;
+border: 1px solid #f0f0f0;
+border-radius: 15px; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.how div:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.mainP{
+font-size: 20px;
+font-weight: 400;
+}
+.how div img {
+height: 100px;
+object-fit: contain;
+margin-bottom: 15px;
+}
+
+.how div h5 {
+font-size: 18px;
+font-weight: bold;
+color: #333;
+margin: 0;
+}
+.how div p {
+font-size: 18px;
+color: #666;
+text-align: center;
+margin-top: 5px;
+}
+.fullScreen{
+    margin: 10px 15px;
+    width: 97%;
+}
+
+.success{
+    margin: 20px;
+    text-align: center;
+}
+.success h5{
+    color: blue;
+    font-size: 30px;
+    font-weight: 400;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.success h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+.success h1+p{
+    font-size: 20px;
+    color: #666;
+}
+  .scroller {
+    width: 100%;
+    height: 300px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    /* margin-left: 70px; */
+
+  }
+  .scroller::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroller div{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #666;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 20px;
+    margin: 0 20px;
+    background-color: white;
+  }
+  .scroller div h3{
+    font-size: 30px;
+  }
+  .scroller div h3+p{
+    font-size: 20px;
+    font-size: 200;
+    color: rgb(57, 63, 70);
+  }
+  
+  
+
+
+
+
+
+.contact{
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.contact h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin: 0px;
+}
+.contact p{
+    font-size: 20px;
+    color: #666;
+}
+
+.confi{
+    text-align: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/206/896/1010/wooden-solid-dark-brown-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 100%;
+    padding: 20px 0px;
+}
+.final{
+    display: flex;
+    flex-wrap: wrap;
+}
+.final div{
+    height: 180px;
+width: 30%;
+border: 1px solid black;
+margin: 15px;
+border-radius: 20px;
+color: white;
+text-align: center;
+align-items: center;
+background-color: rgba(163, 82, 82, 0.715);
+}
+.confi h6{
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.confi h5{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 6oo;
+}
