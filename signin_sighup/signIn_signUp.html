@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="./signIn_signUp.css">
+    <script type="module" src="./signin_singup.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/11.3.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.3.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.3.0/firebase-auth-compat.js"></script>
+</head>
+
+<body>
+    <div class="full">
+        <div class="border">
+            <div class="container">
+
+                <div id="behance">
+                    <img src="https://static.adobelogin.com/clients/behance-2020/1x_b431ffdf8fed1c95074548ecb9d4920e.png"
+                        alt="">
+                    <h1>Behance</h1>
+                </div>
+
+                <section class="form">
+
+                    <div id="sign_in" autocomplete="off">
+                        <div class="header">
+
+                            <h1>Sign in</h1>
+                        </div>
+                        <div id="new-user">
+                            <p>New User? <a class="signup_link" href="">Creat an account</a></p>
+                        </div>
+
+                        <div class="main">
+
+
+                            <div class="email ">
+                                <label for="eml">Email Adderss</label><br>
+                                <input type="email" class="eml1" required>
+                            </div>
+
+                            <div id="password">
+                                <label for="psd1">Pasword</label><br>
+                                <input type="password" class="psd" required>
+                            </div>
+
+                            <div class="Continue" style="display: flex; justify-content: flex-end;">
+                                <button class="insubmit">Continue</button>
+                            </div>
+
+                            <div class="or">
+                                <hr>
+                                <div>
+                                    <p>Or</p>
+                                </div>
+                            </div>
+
+                            <div class="log-btn">
+                                <button> <img src="https://auth.services.adobe.com/img/social/round/google.svg"
+                                        alt="">Continue with Google</button>
+                            </div>
+
+                            <div class="log-btn">
+                                <button> <img src="https://auth.services.adobe.com/img/social/round/facebook.svg"
+                                        alt="">Continue with Facebook</button>
+                            </div>
+
+                            <div class="log-btn">
+                                <button> <img src="https://auth.services.adobe.com/img/social/round/apple.svg"
+                                        alt="">Continue with Apple</button>
+                            </div>
+
+                            <div style="text-align: center; ">
+                                <a href="">view more</a>
+                            </div>
+
+                            <div>
+                                <a href="">get help signing in</a>
+                            </div>
+                        </div>
+                    </div>
+                
+
+
+
+
+                    <div id="sign_up" autocomplete="off">
+                        <div class="header">
+                            <p id="step">Step 1 of 2</p>
+                            <h1>Creat an account</h1>
+                        </div>
+
+                        <div class="main">
+                            <div id="social">
+                                <a href=""><img src="https://auth.services.adobe.com/img/social/round/google.svg"
+                                        alt=""></a>
+                                <a href=""><img src="https://auth.services.adobe.com/img/social/round/facebook.svg"
+                                        alt=""></a>
+                                <a href=""><img src="https://auth.services.adobe.com/img/social/round/apple.svg"
+                                        alt=""></a>
+                                <a href=""><img src="https://auth.services.adobe.com/img/social/round/microsoft.svg"
+                                        alt=""></a>
+                                <a href=""><img src="https://auth.services.adobe.com/img/social/round/line.svg"
+                                        alt=""></a>
+                                <a href=""><img src="https://auth.services.adobe.com/img/social/round/kakao.svg"
+                                        alt=""></a>
+                            </div>
+
+                            <div class="or">
+                                <hr>
+                                <div>
+                                    <p>Or</p>
+                                </div>
+                            </div>
+
+                            <div id="sign-in">
+                                <p>Sign up with email</p>
+                                <p>Already have an account?<a class="signin_link" href="">Sign in</a></p>
+                            </div>
+
+                            <div class="email ">
+                                <label for="eml">Email Adderss</label><br>
+                                <input type="email" class="eml" required>
+                            </div>
+
+                            <div id="password">
+                                <label for="psd">Pasword</label><br>
+                                <input type="password" class="psd" required>
+                            </div>
+
+                            <div class="Continue" style="display: flex; justify-content: flex-end;">
+                                <button class="upsubmit">Continue</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+

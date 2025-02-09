@@ -6,9 +6,138 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jobs</title>
   <link rel="stylesheet" href="jobs.css" />
+  <link rel="stylesheet" href="../B42_WEB_025_Pixel-Pioneers/style.css">
+  <link rel="stylesheet" href="./index.js">
 </head>
 
 <body>
+  <div class="full" style="position: sticky;
+    z-index: 11;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;">
+    <div class="border" style="width: 1520px;">
+      <div class="container">
+        <div id="header">
+          <div id="ham">
+            <div>
+              <i class="fa-solid fa-bars"></i>
+              <h2> Be</h2>
+              <div id="bell">
+                <i class="fa-solid fa-bell"></i>
+              </div>
+            </div>
+          </div>
+          <div id="hm-s">
+            <div id="hm-h">
+              <i class="fa-solid fa-xmark"></i>
+              <h5>Login</h5>
+            </div>
+            <div id="hm-b">
+              <h2>Discover</h2>
+              <h2>Assets</h2>
+              <h2>Jobs</h2>
+              <h2>Behance</h2>
+              <h2>Hire Freelancers</h2>
+              <img
+                src="https://d3njjcbhbojbot.cloudfront.net/api/utilitie….svg?auto=format%2Ccompress&dpr=1&w=152&h=45&q=40"
+                alt="">
+              <img
+                src="	https://d3njjcbhbojbot.cloudfront.net/api/utilitie…?auto=format%2Ccompress&dpr=1&w=152&h=45&q=40alt="
+                alt="">
+              <h5>English</h5>
+              <h5>About</h5>
+              <h5>Blog</h5>
+              <h5>TOU</h5>
+              <h5>Privacy</h5>
+              <h5>Community</h5>
+              <h5>Help</h5>
+              <h5>Do not sell or share my Personal information</h5>
+              <button onclick="window.location.href='./signin_sighup/signIn_signUp.html'" class="sign-up">Sign
+                Up</button>
+            </div>
+
+          </div>
+          <div id="upper">
+
+            <div style="padding-left: 2rem;">
+              <a href="">
+                <h2> Behance</h2>
+              </a>
+              <a href="./index.html">Explore <i class="fa-solid fa-chevron-down"></i></a>
+              <a href="./jobs.html">Job</a>
+              <a href="./constract weak/behance.html">Behance <span>PRO</span></a>
+              <a href="">|</a>
+              <a href="">Hire Freelancers <i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div style="display: flex; gap: 15px;padding-right: 2rem;">
+              <div id="bell">
+                <i class="fa-solid fa-bell"></i>
+              </div>
+              <div style="gap: 15px;">
+                <button onclick="window.location.href='./signin_sighup/signIn_signUp.html'" class="log-in">Log
+                  in</button>
+                <button onclick="window.location.href='./signin_sighup/signIn_signUp.html'" class="sign-up">Sign
+                  up</button>
+              </div>
+              <div>
+                <h4>Adobe</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------------------------------------------------------------------------->
+
+  <div class="full">
+    <div class="border">
+      <div class="container" style="display:flex;">
+        <div id="side-bar"
+          style="box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;">
+          <div id="s-head">
+
+            <button class="filter"><i class="fa-solid fa-sliders"></i>
+              <h4>Filter</h4>
+            </button>
+            <button class="cut">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+          </div>
+
+          <div id="btns">
+            <button>Projects</button>
+            <button>Assets</button>
+            <button>Images</button>
+            <button>People</button>
+          </div>
+          <div id="select">
+            <button>
+              <div><i class="fa-solid fa-shapes"></i> Creative Fields</div><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <button>
+              <div><i class="fa-solid fa-magnifying-glass"></i> Availablity</div><i
+                class="fa-solid fa-chevron-down"></i>
+            </button>
+            <button>
+              <div><i class="fa-solid fa-location-dot"></i> Location</div><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <button>
+              <div><i class="fa-solid fa-screwdriver-wrench"></i> Tools</div><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <button>
+              <div><i class="fa-solid fa-eye-dropper"></i> Color</div><i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="banner">
     <div>
       <h1 class="banner-text">Creative Jobs</h1>
@@ -16,40 +145,44 @@
     </div>
   </div>
 
-    <button class="new-job">+ New Job</button>
-    <div class="job-post">
-    <div id="job-options" class="new-job-container"> 
+  <button class="new-job">+ New Job</button>
+  <div class="job-post">
+    <div id="job-options" class="new-job-container">
       <span class="close-btn">&times;</span>
-        <div class="section">
-            <div class="section-header">
-                <h3>Freelance</h3>
-                <span class="new">NEW</span>
-            </div>
-            <h2>Hire a Freelancer</h2>
-            <p style="font-size: 22px; font-weight: bold;">Find the perfect creator in minutes.</p>
-            <ul>
-                <li style="font-size: 18px;"><i class="fa fa-check"></i> Get proposals from creators matching your needs</li>
-                <li style="font-size: 18px;"><i class="fa fa-comments"></i> Discuss, share files & schedule video calls</li>
-                <li style="font-size: 18px;"><i class="fa fa-credit-card"></i> Pay seamlessly and securely with a credit card</li>
-            </ul>
-            <button class="btn">Find a Freelancer Today</button>
+      <div class="section">
+        <div class="section-header">
+          <h3>Freelance</h3>
+          <span class="new">NEW</span>
         </div>
-    
-        <div class="section">
-            <div class="section-header">
-                <h3>Full-Time</h3>
-            </div>
-            <h2>Post a Full-Time Job</h2>
-            <p>Promote your full-time opportunity.</p>
-            <ul>
-                <li style="font-size: 17.5px;"><i class="fa fa-share-alt"></i> Share your job opportunity with millions of designers</li>
-                <li style="font-size: 17.5px;"><i class="fa fa-external-link"></i> Redirect applications to your favorite external tool</li>
-                <li style="font-size: 17.5px;"><i class="fa-solid fa-clock"></i> Job posts are free and expire after 30 days</li>
-            </ul>
-            <button class="btn">Post a Full-Time Job</button>
+        <h2>Hire a Freelancer</h2>
+        <p style="font-size: 22px; font-weight: bold;">Find the perfect creator in minutes.</p>
+        <ul>
+          <li style="font-size: 18px;"><i class="fa fa-check"></i> Get proposals from creators matching your needs</li>
+          <li style="font-size: 18px;"><i class="fa fa-comments"></i> Discuss, share files & schedule video calls</li>
+          <li style="font-size: 18px;"><i class="fa fa-credit-card"></i> Pay seamlessly and securely with a credit card
+          </li>
+        </ul>
+        <button class="btn">Find a Freelancer Today</button>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h3>Full-Time</h3>
         </div>
+        <h2>Post a Full-Time Job</h2>
+        <p>Promote your full-time opportunity.</p>
+        <ul>
+          <li style="font-size: 17.5px;"><i class="fa fa-share-alt"></i> Share your job opportunity with millions of
+            designers</li>
+          <li style="font-size: 17.5px;"><i class="fa fa-external-link"></i> Redirect applications to your favorite
+            external tool</li>
+          <li style="font-size: 17.5px;"><i class="fa-solid fa-clock"></i> Job posts are free and expire after 30 days
+          </li>
+        </ul>
+        <button class="btn">Post a Full-Time Job</button>
+      </div>
     </div>
-    
+
     <div class="container">
       <div class="sidebar">
         <h3>Categories</h3>
@@ -177,7 +310,7 @@
         </div>
       </div>
     </div>
-    <footer>
+    <div id="ft">
       <div class="footer-links">
         <a href="#">More Behance</a>
         <a href="#">English</a>
@@ -194,7 +327,86 @@
       <div class="footer-logo">
         <a href="#">Adobe</a>
       </div>
-    </footer>
+    </div>
+
+
+
+    <div class="full" style="background-color: rgb(25, 25, 25); text-align: center; padding-left: 8rem;">
+      <div class="border" style="width: 1520px;">
+          <div class="container">
+              <div id="footer">
+
+                  <div>
+
+                  </div>
+
+                  <div id="f-low">
+                      <div style="flex: 1;">
+                          <a href="">
+                              <h2>Behance</h2>
+                          </a>
+                      </div>
+                      <div style="display: flex; justify-content: space-evenly; flex: 3; flex-wrap: wrap;">
+                          <div class="clm">
+                              <p>Built For Creative</p>
+                              <a href="">Try Behance Pro</a>
+                              <a href="">Find Inspiration</a>
+                              <a href="">Get Hired</a> <a>Sell Creative Assets</a>
+                              <a href="">Sell Freelance Services</a>
+                          </div>
+                          <div class="clm">
+                              <p>Find Talent</p>
+                              <a href="">Post a Job</a>
+                              <a href=""> Designers</a>
+                              <a href="">Photographers</a>
+                              <a href="">Video Editors</a>
+                              <a href="">Web Designers</a>
+                              <a href="">Illustrators</a>
+                          </div>
+                          <div class="clm">
+                              <p>Behance</p>
+                              <a href="">About Behance</a>
+                              <a href="">Adobe Portfolio</a>
+                              <a href="">Download the App</a>
+                              <a href="">Blog</a>
+                              <a href="">Careers</a>
+                              <a href="">Help Center</a>
+                              <a href="">Contact Us</a>
+                          </div>
+                          <div class="clm">
+                              <p>Social</p>
+                              <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a>
+                              <a href=""><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+                              <a href=""><i class="fa-brands fa-pinterest"></i> Pintrest</a>
+                              <a href=""><i class="fa-brands fa-facebook"></i> Facebook</a>
+                              <a href=""><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <hr>
+                  <div style="display: flex; justify-content: space-between; align-items: center; height: 4rem;">
+                      <div style="display: flex;gap: 2.5rem; padding-top: 1rem;">
+                          <h4>Adobe</h4>
+                          <p> ©2025 Adobe Inc. All rights reserved.</p>
+                      </div>
+                      <div id="last" style="display: flex; gap: 2rem;">
+                          <a href="">English</a>
+                          <a href="">TOU</a>
+                          <a href="">Privacy</a>
+                          <a href="">Community</a>
+                          <a href="">Cookie preferenes</a>
+                          <a href="">Do not sell or share my personal information</a>
+                      </div>
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+  </div>
 </body>
 
 </html>

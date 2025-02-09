@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: px;
+}
+
+.container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://auth.services.adobe.com/img/canvas/Fotolia_200977622_XL.jpg');
+    height: 700px;   
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+#behance{
+    display: flex;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 200;
+    color: rgb(244,244,244);
+}
+
+#social{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+#social a{
+    display: flex;
+    height: 54px;
+    width: 54px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5px; */
+}
+
+#social img{
+    height: 28px;
+}
+
+
+
+
+.form div{
+    padding: 10px 0px;
+}
+
+.form h1{
+    color: rgb(50,50,50);
+    font-size: 36px;
+    font-weight: 700;
+    height: 47px;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+#new-user ,
+.header p,
+.log-btn button,
+#sign-in{
+    color:rgb(80,80,80);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.form{
+    background-color: white;
+    display: flex;
+    padding:30px 45px;
+    border-radius: 10px;
+    margin: 30px;
+    height: 600px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+
+
+.form.active{
+    height: 500px;
+}
+
+.form #sign_in{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.form.active #sign_in{
+    transition: none;
+    transform: translateX(-500px);
+}
+
+.form #sign_up{
+    transform: none;
+    position: absolute;
+    transform: translateX(500px);
+}
+
+.form.active #sign_up{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+label{
+    color: rgb(70, 70, 70);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+}
+input{
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.Continue button{
+    background-color: rgb(20, 115, 230);
+    color: rgb(225,225,225);
+    font-family: adobe-clean-ux, adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.or{
+    width: 100%;
+    position: relative;;
+}
+.or div{
+    display: flex;
+    width: 30px;
+    height: 10px;
+    text-align: center;
+    justify-content: center;
+    position:absolute;
+    top: -50%;
+    right: 50%;
+    background-color: white;
+}
+
+#log-btn img{
+    height: 25px;
+    width: 25px;
+}
+
+.log-btn button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 450px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.form a{
+    text-decoration: none;
+    color: rgb(20, 115, 230);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.form a:hover{
+    text-decoration: underline;
+}
