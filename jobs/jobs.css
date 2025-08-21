@@ -1,10 +1,14 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body {
   font-family: sans-serif;
   margin: 0;
 }
 
 .banner {
-  background-image: url("./images/job-header.jpg");
+  background-image: url("../assets/job-header.jpg");
   background-size: cover;
   background-position: center;
   height: 280px;
