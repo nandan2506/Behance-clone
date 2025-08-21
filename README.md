@@ -15,6 +15,10 @@ A frontend-only group project replicating the UI/UX of Behance, where users can 
 - CSS3 – Styling + Flexbox + Grid + Animations
 - JavaScript (ES6) – Interactivity & DOM manipulation
 
+### Live 
+Live Link - [behancepixel.netlify.app/](https://behancepixel.netlify.app/)
+
+
 
 ## Project Structure
 ```
